@@ -29,9 +29,6 @@ Also remember to add the full callback path to your Dropbox App Console, for exa
 
 For more information check the [OmniAuth wiki](https://github.com/intridea/omniauth/wiki).
 
-TODO
-----
-
 
 Helping
 -------
