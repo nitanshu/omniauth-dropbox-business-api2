@@ -1,9 +1,9 @@
-OmniAuth Dropbox OAuth2
-=======================
+OmniAuth Dropbox Business API 2
+=====================================
 
 Strategy to authenticate Dropbox in OmniAuth using the business api v2.
 
-It's using the OAuth2 from the [Dropbox API](https://www.dropbox.com/developers)
+It's using the OAuth2 from the [Dropbox API](https://www.dropbox.com/developers) Business EndPoint.
 
 Usage
 -----
