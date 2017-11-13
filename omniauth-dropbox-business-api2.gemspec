@@ -2,13 +2,13 @@
 require File.expand_path(File.join('..', 'lib', 'omniauth', 'dropbox_oauth2', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = 'omniauth-dropbox-oauth2'
+  gem.name        = 'omniauth-dropbox-business-api2'
   gem.version     = OmniAuth::DropboxOauth2::VERSION
-  gem.homepage    = 'https://github.com/bamorim/omniauth-dropbox-oauth2'
+  gem.homepage    = 'https://github.com/nitanshu/omniauth-dropbox-business-api2'
 
-  gem.author      = "Bernardo Amorim"
-  gem.email       = 'contato@bamorim.com'
-  gem.description = 'Dropbox OAuth2 strategy for OmniAuth 1.x'
+  gem.author      = 'Nitanshu Verma'
+  gem.email       = 'nitanshu1991@gmail.com'
+  gem.description = 'Dropbox OAuth2 strategy for OmniAuth 1.x supporting business api v2'
   gem.summary     = gem.description
 
   gem.add_dependency "omniauth-oauth2", "~> 1.3.1"

@@ -1,7 +1,7 @@
 OmniAuth Dropbox OAuth2
 =======================
 
-Strategy to authenticate Dropbox in OmniAuth.
+Strategy to authenticate Dropbox in OmniAuth using the business api v2.
 
 It's using the OAuth2 from the [Dropbox API](https://www.dropbox.com/developers)
 
@@ -12,7 +12,7 @@ Add the strategy to your `Gemfile` alongside OmniAuth:
 
 ```ruby
 gem 'omniauth'
-gem 'omniauth-dropbox-oauth2'
+gem 'omniauth-dropbox-business-api2'
 ```
 
 Integrate this strategy to your OmniAuth middleware.
@@ -31,10 +31,7 @@ For more information check the [OmniAuth wiki](https://github.com/intridea/omnia
 
 TODO
 ----
-This is a wip, so there are many things to do:
-* Add tests (I did it really quick just to use on a personal project and no tests, shame on me)
-* Test all cases (I'm not an expert with OAuth, so maybe there's something I'm missing)
-* Make sure it's an OK gem (It's my first gem, I don't know exactly what I was supposed to do, so, please help me :D)
+
 
 Helping
 -------
@@ -45,7 +42,7 @@ Helping
 License
 -------
 
-Copyright (c) 2013 Bernardo Amorim
+Copyright (c) 2017 Nitanshu Verma
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
