@@ -1,2 +1,3 @@
 # Ignore application configuration
 .idea
+omniauth-dropbox-business-api2-*.*.*.gem
