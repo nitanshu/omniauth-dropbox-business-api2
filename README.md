@@ -11,7 +11,6 @@ Usage
 Add the strategy to your `Gemfile` alongside OmniAuth:
 
 ```ruby
-gem 'omniauth'
 gem 'omniauth-dropbox-business-api2'
 ```
 
