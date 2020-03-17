@@ -44,7 +44,13 @@ module OmniAuth
         if @authorization_code_from_signed_request
           ''
         else
-          options[:callback_url] || super
+          # Override to remove query_string. Dropbox will verify that the
+          # redirect_uri provided in the token request matches the one used for
+          # the authorize request, and using the query string will cause
+          # redirect_uri mismatch errors.
+          # OmniAuth issue: https://github.com/omniauth/omniauth-oauth2/issues/93
+          # Similar: https://github.com/icoretech/omniauth-dropbox2/pull/2/files
+          full_host + script_name + callback_path
         end
       end
     end
